@@ -37,13 +37,15 @@ export const agents: Record<AgentType, AgentConfig> = {
       return existsSync(claudeHome);
     },
   },
-  clawdbot: {
-    name: 'clawdbot',
-    displayName: 'Clawdbot',
+  moltbot: {
+    name: 'moltbot',
+    displayName: 'Moltbot',
     skillsDir: 'skills',
-    globalSkillsDir: join(home, '.clawdbot/skills'),
+    globalSkillsDir: existsSync(join(home, '.clawdbot'))
+      ? join(home, '.clawdbot/skills')
+      : join(home, '.moltbot/skills'),
     detectInstalled: async () => {
-      return existsSync(join(home, '.clawdbot'));
+      return existsSync(join(home, '.moltbot')) || existsSync(join(home, '.clawdbot'));
     },
   },
   cline: {
