@@ -127,6 +127,7 @@ export async function discoverSkills(
     join(searchPath, '.cursor/skills'),
     join(searchPath, '.github/skills'),
     join(searchPath, '.goose/skills'),
+    join(searchPath, '.iflow/skills'),
     join(searchPath, '.junie/skills'),
     join(searchPath, '.kilocode/skills'),
     join(searchPath, '.kiro/skills'),

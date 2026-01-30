@@ -15,6 +15,7 @@ export type AgentType =
   | 'gemini-cli'
   | 'github-copilot'
   | 'goose'
+  | 'iflow-cli'
   | 'junie'
   | 'kilo'
   | 'kimi-cli'

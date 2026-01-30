@@ -224,6 +224,7 @@ Skills can be installed to any of these agents:
 | Gemini CLI | `gemini-cli` | `.gemini/skills/` | `~/.gemini/skills/` |
 | GitHub Copilot | `github-copilot` | `.github/skills/` | `~/.copilot/skills/` |
 | Goose | `goose` | `.goose/skills/` | `~/.config/goose/skills/` |
+| iFlow CLI | `iflow-cli` | `.iflow/skills/` | `~/.iflow/skills/` |
 | Junie | `junie` | `.junie/skills/` | `~/.junie/skills/` |
 | Kilo Code | `kilo` | `.kilocode/skills/` | `~/.kilocode/skills/` |
 | Kiro CLI | `kiro-cli` | `.kiro/skills/` | `~/.kiro/skills/` |
@@ -331,6 +332,7 @@ The CLI searches for skills in these locations within a repository:
 - `.gemini/skills/`
 - `.github/skills/`
 - `.goose/skills/`
+- `.iflow/skills/`
 - `.junie/skills/`
 - `.kilocode/skills/`
 - `.kiro/skills/`
@@ -419,6 +421,7 @@ Telemetry is automatically disabled in CI environments.
 - [Cursor Skills Documentation](https://cursor.com/docs/context/skills)
 - [Gemini CLI Skills Documentation](https://geminicli.com/docs/cli/skills/)
 - [GitHub Copilot Agent Skills](https://docs.github.com/en/copilot/concepts/agents/about-agent-skills)
+- [iFlow CLI Skills Documentation](https://platform.iflow.cn/en/cli/examples/skill)
 - [Kimi Code CLI Skills Documentation](https://moonshotai.github.io/kimi-cli/en/customization/skills.html)
 - [Kiro CLI Skills Documentation](https://kiro.dev/docs/cli/custom-agents/configuration-reference/#skill-resources)
 - [Kode Skills Documentation](https://github.com/shareAI-lab/kode/blob/main/docs/skills.md)
