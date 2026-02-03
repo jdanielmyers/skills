@@ -3,7 +3,7 @@
 The CLI for the open agent skills ecosystem.
 
 <!-- agent-list:start -->
-Supports **OpenCode**, **Claude Code**, **Codex**, **Cursor**, and [35 more](#available-agents).
+Supports **OpenCode**, **Claude Code**, **Codex**, **Cursor**, and [36 more](#available-agents).
 <!-- agent-list:end -->
 
 ## Install a Skill
@@ -218,6 +218,7 @@ Skills can be installed to any of these agents:
 | Codex | `codex` | `.codex/skills/` | `~/.codex/skills/` |
 | Command Code | `command-code` | `.commandcode/skills/` | `~/.commandcode/skills/` |
 | Continue | `continue` | `.continue/skills/` | `~/.continue/skills/` |
+| Cortex Code | `cortex` | `.cortex/skills/` | `~/.snowflake/cortex/skills/` |
 | Crush | `crush` | `.crush/skills/` | `~/.config/crush/skills/` |
 | Cursor | `cursor` | `.cursor/skills/` | `~/.cursor/skills/` |
 | Droid | `droid` | `.factory/skills/` | `~/.factory/skills/` |
@@ -325,6 +326,7 @@ The CLI searches for skills in these locations within a repository:
 - `.codex/skills/`
 - `.commandcode/skills/`
 - `.continue/skills/`
+- `.cortex/skills/`
 - `.crush/skills/`
 - `.cursor/skills/`
 - `.factory/skills/`
